@@ -1077,7 +1077,7 @@ textarea.form-control { resize: vertical; min-height: 90px; }
 /* ─── RESPONSIVE ─────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .sidebar { width: 220px; }
-  --sidebar-w: 220px;
+  :root { --sidebar-w: 220px; }
   .main-content { margin-left: 220px; padding: 1.25rem; }
   .form-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
