@@ -1,0 +1,21 @@
+RURAL DEVELOPMENT MANAGEMENT SYSTEM (RDMS)
+============================================
+DATABASE INFORMATION
+
+The database for this project is hosted live on the MySQL 8.0 Server (Local instance MYSQL80).
+It does not exist as raw files in a folder because it is a production-level relational database.
+
+Connection Details:
+- Host: 127.0.0.1
+- Port: 3306
+- User: root
+- Password: AliAhmad786
+- Database Name: rdms_db
+
+Total Tables Created: 27 (including Beneficiaries, Projects, Donors, Inventory, Volunteers).
+
+To view this database:
+1. Open MySQL Workbench.
+2. Click on "Local instance MYSQL80".
+3. Enter your password.
+4. Look at the "Schemas" tab on the left side to see `rdms_db`.
